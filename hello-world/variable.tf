@@ -15,7 +15,7 @@ variable "cluster_region" {
 
 variable "cluster_name" {
   type = string
-  default = ""
+  default = "my-cluster"
 }
 
 // not available yet: https://github.com/hashicorp/terraform/issues/30957
